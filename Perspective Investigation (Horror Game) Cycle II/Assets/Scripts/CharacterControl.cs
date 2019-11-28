@@ -32,10 +32,15 @@ public class CharacterControl : MonoBehaviour
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
             moveDirection *= speed;
 
+            moveDirection = this.transform.TransformDirection(moveDirection);
+
+
             if (Input.GetButton("Jump"))
             {
                 moveDirection.y = jumpSpeed;
             }
+
+            //transform.LookAt(Camera.main.ScreenToWorldPoint(Input.mousePosition));
         }
 
         // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
