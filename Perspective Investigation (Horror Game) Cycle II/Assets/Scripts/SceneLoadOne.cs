@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneLoad : MonoBehaviour
+public class SceneLoadOne : MonoBehaviour
 {
     public void LoadScene()
     {
-        SceneManager.LoadScene("ThirdPerson");
+        SceneManager.LoadScene("FirstPerson");
     }
 }

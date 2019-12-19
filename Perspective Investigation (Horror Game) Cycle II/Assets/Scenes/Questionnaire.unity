@@ -1106,7 +1106,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "On a scale from 1 to 10, did the third person perspective increase the
+  m_Text: "On a scale from 1 to 10, did the first person perspective increase the
     atmosphere?\r\n\n"
 --- !u!222 &770249036
 CanvasRenderer:
@@ -1794,7 +1794,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: On a scale from 1 to 10, did the third person perspective increase the tension?
+  m_Text: On a scale from 1 to 10, did the first person perspective increase the tension?
 --- !u!222 &1085436949
 CanvasRenderer:
   m_ObjectHideFlags: 0
